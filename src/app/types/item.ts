@@ -1,0 +1,30 @@
+export interface Item {
+    _id: string;
+    owner: string;
+    owner_number: string;
+    created_at: string;
+    title: string;
+    price: number;
+    image?: string;
+    description?: string;
+    type?: string;
+    brand?: string;
+    model?: string;
+    year?: string;
+    color?: string;
+    engine_disp?: number;
+    fuel_type?: string;
+    transmission_type?: string;
+    mileage?: number;
+    graphics_card?: string;
+    operating_system?: string;
+    processor?: string;
+    ram?: string;
+    storage?: string;
+    camera?: any;
+    battery_capacity?: string;
+    tutor_name?: string;
+    lessons?: string[];
+    location?: string;
+    duration?: string;
+}
